@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For Su — Sealed Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Figtree:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="lockpage">
+<canvas id="fireflies" aria-hidden="true"></canvas>
+<div class="forest"></div>
+<main id="lock" class="lock">
+  <div class="seal" aria-hidden="true"><span></span></div>
+  <h1>Case file: Su</h1>
+  <p class="intro">A file has turned up in the archive, addressed to one person only.<br>The contents are confidential. The key is four digits long.</p>
+  <div class="dots" aria-label="PIN progress"><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></div>
+  <p id="msg" class="msg" role="status" aria-live="polite"></p>
+  <div class="pad">
+    <button class="key" data-k="1">1</button><button class="key" data-k="2">2</button><button class="key" data-k="3">3</button>
+    <button class="key" data-k="4">4</button><button class="key" data-k="5">5</button><button class="key" data-k="6">6</button>
+    <button class="key" data-k="7">7</button><button class="key" data-k="8">8</button><button class="key" data-k="9">9</button>
+    <button class="key small" data-k="clear" aria-label="Clear">Clear</button><button class="key" data-k="0">0</button><button class="key small" data-k="back" aria-label="Backspace">&#9003;</button>
+  </div>
+</main>
+<script src="js/config.js"></script>
+<script src="js/common.js"></script>
+<script src="js/pin.js"></script>
+</body>
+</html>

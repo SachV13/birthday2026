@@ -1,0 +1,2 @@
+Put your voice note in this folder and name it: voice-note.mp3
+(or change AUDIO_FILE in js/config.js to match your file name).
