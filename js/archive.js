@@ -64,7 +64,7 @@
 
   /* ---------- VOICE NOTE ---------- */
   const a = $('aud'), wave = $('wave'), track = $('track'), N = 56;
-  a.src = 'assets/Auntywish.mp3.mpeg';
+  a.src = 'assets/Auntywish.mp3';
 
   for (let i = 0; i < N; i++) {
     const b = document.createElement('i');
