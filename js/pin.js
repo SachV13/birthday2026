@@ -3,6 +3,7 @@
   const msg = document.getElementById('msg');
   const lock = document.getElementById('lock');
   let entry = '', busy = false;
+  const PIN = '2023';
   const errors = [
     "Not it. Even the owls are unimpressed.",
     "Wrong digits. The forest is judging you softly.",
