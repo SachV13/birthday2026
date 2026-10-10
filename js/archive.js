@@ -35,7 +35,7 @@
 
   cut.onclick = () => {
     cut.disabled = true;
-    wrap.classList.add('slicing);
+    wrap.classList.add('slicing');
     setTimeout(() => {
       wrap.classList.add('cut');
       confetti();
