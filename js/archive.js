@@ -81,7 +81,7 @@
   img.onerror = () => img.remove();
   $('thumbBtn').onclick = () => {
     const f = document.createElement('iframe');
-    f.src = 'https://www.youtube.com/embed/bRMtWQle6mk?autoplay=1&rel=0' + YOUTUBE_ID + '?autoplay=1&rel=0';
+    f.src = 'https://www.youtube.com/embed/bRMtWQle6mk?si=4JiFqpBpWg0G2MO8' + YOUTUBE_ID + '?autoplay=1&rel=0';
     f.title = 'Anime film for Su'; f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen'; f.allowFullscreen = true;
     $('film-box').replaceChildren(f);
   };
