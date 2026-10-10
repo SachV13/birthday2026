@@ -36,7 +36,7 @@
 
   /* ---------- VOICE NOTE ---------- */
   const a = $('aud'), wave = $('wave'), track = $('track'), N = 56;
-  a.src = assets/Auntywish.mp3.mpeg;
+  a.src = 'assets/Auntywish.mp3.mpeg';
   for (let i = 0; i < N; i++) {
     const b = document.createElement('i');
     b.style.height = (14 + Math.abs(Math.sin(i * 1.7) * Math.cos(i * .45)) * 78 + (i % 5) * 2) + '%';
